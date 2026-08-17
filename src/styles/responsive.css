@@ -1,0 +1,134 @@
+/* ==========================================================================
+   11:11 THE COFFEE SPACE - Responsive Media Queries
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .hero-card-banner {
+    padding: 3.5rem 3rem;
+    min-height: 780px;
+    background-position: 80% center;
+  }
+
+  .story-highlights-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .story-content-box {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .story-action-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-cards-grid-with-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .specials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-cta-grid,
+  .testimonials-grid,
+  .about-mission-grid,
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .nav-desktop {
+    display: none;
+  }
+
+  .hamburger-btn {
+    display: flex;
+  }
+
+  .hero-card-banner {
+    padding: 3rem 1.8rem;
+    min-height: 440px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero-content-wrapper {
+    background: rgba(247, 239, 229, 0.9);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 2.2rem 1.8rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(221, 206, 190, 0.6);
+    box-shadow: 0 8px 24px rgba(54, 31, 18, 0.08);
+    max-width: 100%;
+  }
+
+  .hero-lead-text {
+    margin-bottom: 1.8rem;
+  }
+
+  .story-cards-row {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .about-grid,
+  .location-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .menu-cards-grid-with-images {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid-masonry {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .specials-grid,
+  .home-cta-grid,
+  .testimonials-grid,
+  .about-mission-grid,
+  .team-grid,
+  .gallery-grid-masonry {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-headline {
+    font-size: 2.3rem;
+  }
+
+  .story-heading {
+    font-size: 2rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .form-grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .about-images-composition {
+    grid-template-columns: 1fr;
+  }
+
+  .about-img-secondary {
+    margin-top: 0;
+  }
+}

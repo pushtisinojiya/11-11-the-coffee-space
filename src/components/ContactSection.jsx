@@ -79,7 +79,7 @@ export default function ContactSection({ onBookingSubmit, showToast }) {
           </div>
 
           {/* Right Block: Frequently Asked Questions */}
-          <div className="contact-card-box contact-block-equal">
+          {/* <div className="contact-card-box contact-block-equal">
             <h3 className="contact-block-title">Frequently Asked Questions</h3>
             <div className="faq-list">
               {faqs.map((faq, idx) => (
@@ -101,7 +101,7 @@ export default function ContactSection({ onBookingSubmit, showToast }) {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

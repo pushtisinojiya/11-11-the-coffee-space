@@ -54,6 +54,11 @@
     display: flex;
   }
 
+  .brand-logo-img {
+    height: 46px;
+    max-width: 190px;
+  }
+
   .hero-card-banner {
     padding: 3rem 1.8rem;
     min-height: 440px;
@@ -98,6 +103,15 @@
 }
 
 @media (max-width: 640px) {
+  .header-container {
+    padding: 0 1rem;
+  }
+
+  .brand-logo-img {
+    height: 40px;
+    max-width: 160px;
+  }
+
   .specials-grid,
   .home-cta-grid,
   .testimonials-grid,
@@ -119,6 +133,20 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+}
+
+@media (max-width: 380px) {
+  .brand-logo-img {
+    height: 34px;
+    max-width: 135px;
+  }
+
+  .hamburger-btn {
+    width: 36px;
+    height: 36px;
+    padding: 4px;
+  }
+}
 
   .form-grid-2 {
     grid-template-columns: 1fr;
